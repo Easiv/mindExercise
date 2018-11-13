@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  background-color: lightgray;
+}
+
+.main-component {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 33vw;
+  justify-content: center;
+  padding: 40px;
+}
+
+.questions {
+  background-color: blue;
+  font-size: 50px;
+}
+
+.question {
+  background-color: pink;
+  margin-left: 10px;
+}
+
+.visible {
+  visibility: hidden;
+  background-color: yellow;
+}
